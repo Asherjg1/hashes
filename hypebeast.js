@@ -11,7 +11,7 @@ delete myHash['year']
 hypebeast+=hypebeast
 myString+=myString
 var merged = {...myHash,...myHash2}
-
+delete hypebeast[2]
  console.log(hypebeast);
  console.log(myString);
  console.log(merged);
